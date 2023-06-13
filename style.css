@@ -351,6 +351,30 @@ body {
     height: calc(18em + 4vw);
   }
 }
+
+.advertisementPC{
+  width: 100%;
+}
+
+.advertisementMobile{
+  width: 100%;
+  display: none;
+}
+
+@media screen and (max-width: 900px) {
+  .advertisementPC{
+    width: 100%;
+    display: none;
+  }
+  
+  .advertisementMobile{
+    width: 100%;
+    display: inline !important;
+  }
+}
+
+
+
 .cards-wrapper2 {
   display: grid;
   justify-content: center;
